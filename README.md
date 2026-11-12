@@ -6,7 +6,7 @@ A DOS Driver or TSR + a Utility, able to communicate to a server PC application 
 * **mount folders** located on the server PC (using the MS-DOS Installable File System, IFS/Redirector interface)
 * **mount virtual disk/diskette images** as device block drivers located on the server PC
 * **handle data transfers** between client and server PC
-* **debugging** step, breakpoints, download arbritary memory space, upload and run arbitrary code at a location, perform I/O commands
+* **real-mode debugging** step, breakpoints, download arbritary memory space, upload and run arbitrary code at a location, perform I/O commands
 * i don't provide the other-end PC Application that serves the driver/TSR, as it was left in oblivion without maintenance. So this is just the driver/tsr/utility code; it needs an app to establish a serial port connection and send/receive the appropriate packets. My choice for the debugger implementation was the **Capstone** library.
 
 **Windows 95**
