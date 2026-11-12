@@ -26,4 +26,7 @@ The driver is initialized in CONFIG.SYS with these optional args:
 * **-P=COMx,BAUDRATE** | **LPTx** sets the port to LPTx or COMx with the settings
 * **-S=x** creates x block device slots
 
+**User interface "relay"**
+The text user interface is not local to the driver or TSR, instead is provided by the server application. When invoked the current video buffer is transfered with RLE compression to the server, and the server accepts the keyboard keys from the client. In this way the MS-DOS computer receive the available mounts files, or the whole debugging user interface, just with block-differences. After exiting the saved video buffer is restored on the MS-DOS computer. This may not always work as it checks the current video mode on BIOS, what is a bit unreliable.
+ 
 
