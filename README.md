@@ -2,7 +2,7 @@
 A DOS Driver or TSR + a Utility, able to communicate to a server PC application via serial port (i didn't had a chance to implement the Parallel Port code because i didn't had one at the time). 
 
 **It can**
-* **emulate keyboard and mouse, extract the video-memory** 
+* **emulate keyboard and mouse on a remote computer, change mouse cursors, extract the video-memory, etc** 
 * **mount folders** located on the server PC (using the MS-DOS Installable File System, IFS/Redirector interface)
 * **mount virtual disk/diskette images** as device block drivers located on the server PC
 * **handle data transfers** between client and server PC
