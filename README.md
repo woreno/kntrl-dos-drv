@@ -1,5 +1,5 @@
 # kntrl-dos-drv (2019)
-A DOS Driver or TSR + a Utility, able to communicate to a server PC application via serial port (i didn't had a chance to implement the Parallel Port code because i didn't had one at the time). 
+A DOS Driver or TSR + a Utility, able to communicate to a server PC application via serial port (i didn't had a chance to implement the Parallel Port code because i didn't had one at the time). Compiled with Borland Turbo C.
 
 **It can**
 * **emulate keyboard and mouse on a remote computer, change mouse cursors, extract the video-memory, etc** 
