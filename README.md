@@ -28,5 +28,9 @@ The driver is initialized in CONFIG.SYS with these optional args:
 
 **User interface "relay"**
 The text user interface is not local to the driver or TSR, instead, is provided by the server application. When invoked, the current video buffer is transferred with RLE compression to the server, and the server accepts the keyboard keys from the client. In this way the MS-DOS computer receive the available virtual image files for mounting, or the whole debugging user interface, transfering only the text block differences. After exiting the user interface, the saved video buffer is restored on the MS-DOS computer. This may not always work as it checks the current video mode on BIOS, and this is a bit unreliable.
- 
+
+**References**
+* Dr Dobbs journal 
+* MS-DOS Version 4.0 Programmer's Reference
+
 
